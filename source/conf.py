@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'researchpy'
-copyright = '2018-2022, Corey Bryant'
+copyright = '2018-2026, Corey Bryant'
 author = 'Corey Bryant'
 
 # The short X.Y version
