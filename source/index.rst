@@ -27,7 +27,7 @@ streamlined during this process. For an example, see the new -difference_test- m
    * pip install researchpy
       * For standard install
 
-   * conda install -c researchpy researchpy
+   * conda install researchpy::researchpy
       * For installation through conda
 
 
