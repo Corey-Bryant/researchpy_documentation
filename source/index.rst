@@ -24,11 +24,11 @@ streamlined during this process. For an example, see the new -difference_test- m
 
   researchpy is only compatible with Python 3.x. Download using either:
 
-   * pip install researchpy
-      * For standard install
+   * For standard install
+      * pip install researchpy
 
-   * conda install -c researchpy researchpy
-      * For installation through conda
+   * For installation through conda
+      * conda install researchpy::researchpy
 
 
 
