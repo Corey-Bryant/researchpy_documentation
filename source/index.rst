@@ -2,17 +2,13 @@
 Welcome to researchpy's documentation!
 ======================================
 
-ResearchPy is an open-source Python library that is designed to be easy to use and deliver commonly required univariate,
-bivariate, and multivariate models and statistical tests with friendly outputs for downstream export and analysis; for
-example, summary tables, t-tests, correlations, ANOVA, OLS linear regression, and effect sizes are returned by default
-as Pandas DataFrames.
+About ResearchPy
+----------------
+ResearchPy is an open-source statistical library focused on clear, reproducible
+univariate and bivariate analysis for research workflows.
 
-It fills gaps not directly covered by SciPy, NumPy, and Statsmodels, as well as simplifies use through elegant design
-principals. Providing user-friendly outputs and comprehensive documentation, formulas and methods are cited, and
-the outcomes and outputs being rigorously tested and cross-checked against Stata, R, SAS, and SPSS.
-
-While initially designed for univariate and bivariate analysis, the scope of ResearchPy is expanding to include
-multivariate and multivariable modeling, and has started to provide multivariate analyses of this expanded scope.
+For background on authorship, scope, and design principles, see the
+:doc:`About page <about>`.
 
 
 .. note::
