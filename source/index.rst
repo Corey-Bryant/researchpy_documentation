@@ -2,22 +2,17 @@
 Welcome to researchpy's documentation!
 ======================================
 
-Researchpy produces Pandas DataFrames that contains relevant statistical testing
-information that is commonly required for academic research. The information is
-returned as Pandas DataFrames to make for quick and easy exporting of results to
-any format/method that works with the traditional Pandas DataFrame.
+ResearchPy is an open-source Python library that is designed to be easy to use and deliver commonly required univariate,
+bivariate, and multivariate models and statistical tests with friendly outputs for downstream export and analysis; for
+example, summary tables, t-tests, correlations, ANOVA, OLS linear regression, and effect sizes are returned by default
+as Pandas DataFrames.
 
-Researchpy is essentially a wrapper that combines various established packages
-such as pandas, scipy.stats, numpy, and statsmodels to get all the standard required
-information in one method. If analyses were not available in
-these packages, code was developed to fill the gap.
+It fills gaps not directly covered by SciPy, NumPy, and Statsmodels, as well as simplifies use through elegant design
+principals. Providing user-friendly outputs and comprehensive documentation, formulas and methods are cited, and
+the outcomes and outputs being rigorously tested and cross-checked against Stata, R, SAS, and SPSS.
 
-Formulas are provided with citations if the code originated from researchpy.
-All output has been tested and verified by comparing to established software
-packages such as Stata, SAS, SPSS, and/or R.
-
-Moving forward, Researchpy will be using formula_like approach and is being
-streamlined during this process. For an example, see the new -difference_test- method.
+While initially designed for univariate and bivariate analysis, the scope of ResearchPy is expanding to include
+multivariate and multivariable modeling, and has started to provide multivariate analyses of this expanded scope.
 
 
 .. note::
@@ -36,6 +31,8 @@ streamlined during this process. For an example, see the new -difference_test- m
    :maxdepth: 2
    :caption: Contents:
 
+   about
+   install
    codebook_documentation
    summarize_documentation
    summary_cont_documentation
@@ -49,5 +46,4 @@ streamlined during this process. For an example, see the new -difference_test- m
    anova_documentation
    ols_documentation
    predict_documentation
-   install
    thanks

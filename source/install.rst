@@ -7,4 +7,4 @@ To install using pip use:
   * pip install researchpy
 
 To install using conda use:
-  * conda install -c researchpy researchpy
+    * conda install researchpy::researchpy

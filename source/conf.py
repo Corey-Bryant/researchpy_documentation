@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = 'researchpy'
-copyright = '2018-2022, Corey Bryant'
+copyright = '2018-2026, Corey Bryant'
 author = 'Corey Bryant'
 
 # The short X.Y version
-version = '0.3.5'
+version = '0.3.7'
 # The full version, including alpha/beta/rc tags
-release = '0.3.5'
+release = '0.3.7'
 
 
 # -- General configuration ---------------------------------------------------

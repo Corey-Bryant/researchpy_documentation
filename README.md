@@ -11,4 +11,4 @@ comparing to established software packages such as Stata, SAS, SPSS, and/or R.
 
 
 ##### Citation Recommendation
-Bryant. C (2018). Researchpy. https://github.com/researchpy/researchpy
+Bryant. C (2018). Researchpy. [https://github.com/corey-bryant/researchpy](https://github.com/Corey-Bryant/researchpy)
