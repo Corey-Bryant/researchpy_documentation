@@ -43,3 +43,4 @@ For background on authorship, scope, and design principles, see the
    ols_documentation
    predict_documentation
    thanks
+   technical_design_rationale
