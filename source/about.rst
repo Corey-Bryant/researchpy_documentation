@@ -22,7 +22,7 @@ Relationship to the Python Statistical Ecosystem
 ==================================================
 While initially designed for univariate and bivariate analysis, the scope of ResearchPy is expanding to include
 multivariate and multivariable modeling, and has started to provide multivariate analyses of this expanded scope.
-The design principals of ResearchPy is about elegance through the emphasis of ease of use and interpretability, with a
+The design principals of ResearchPy are about elegance through the emphasis of ease of use and interpretability, with a
 focus on user-friendly outputs and comprehensive documentation. ResearchPy is intended to be a replacement for other
 statistical libraries such as Numpy, SciPy, and Statsmodels. Instead, it is intended to complement them to support
 exploratory analysis, statistical checking, reporting, and validation workflows.
