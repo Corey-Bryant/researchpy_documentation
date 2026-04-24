@@ -9,7 +9,8 @@ example, summary tables, t-tests, correlations, ANOVA, OLS linear regression, an
 as Pandas DataFrames.
 
 It fills gaps not directly covered by SciPy, NumPy, and Statsmodels, and simplifies use through design principals. With
-formulas cited and outputs rigorously tested and cross-checked against Stata, R, SAS, and SPSS.
+formulas cited and outputs rigorously tested and cross-checked against Stata, R, SAS, and SPSS. For more information
+on the design principles and verification process, see the :doc:`Technical Design Rationale <technical_design_rationale>`.
 
 Authorship and Scope
 ====================
@@ -20,10 +21,10 @@ or optimization for niche domains.
 
 Relationship to the Python Statistical Ecosystem
 ==================================================
-While initially designed for univariate and bivariate analysis, the scope of ResearchPy is expanding to include
+Initially designed for univariate and bivariate analysis, the scope of ResearchPy is expanding to include
 multivariate and multivariable modeling, and has started to provide multivariate analyses of this expanded scope.
 The design principals of ResearchPy are about elegance through the emphasis of ease of use and interpretability, with a
-focus on user-friendly outputs and comprehensive documentation. ResearchPy is intended to be a replacement for other
+focus on user-friendly outputs and comprehensive documentation. ResearchPy is not intended to be a replacement for other
 statistical libraries such as Numpy, SciPy, and Statsmodels. Instead, it is intended to complement them to support
 exploratory analysis, statistical checking, reporting, and validation workflows.
 
@@ -33,12 +34,3 @@ guided by user needs and the evolving landscape of statistical methods in resear
 
 Readers will find integrated documentation and references to companion libraries throughout to facilitate verification
 and further exploration.
-
-Broader Context
-=================
-ResearchPy is part of a broader effort to advance open, accessible research tools and educational resources. These
-efforts are being informally aligned under the name Hearts of Science, an emerging initiative that will eventually serve
-as a connective, coherent home for related open-science projects.
-
-ResearchPy remains fully usable and independent. Its functionality does not depend on any existing organizational
-infrastructure.
