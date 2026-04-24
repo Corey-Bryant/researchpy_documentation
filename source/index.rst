@@ -28,6 +28,7 @@ For background on authorship, scope, and design principles, see the
    :caption: Contents:
 
    about
+   technical_design_rationale
    install
    codebook_documentation
    summarize_documentation
@@ -43,4 +44,3 @@ For background on authorship, scope, and design principles, see the
    ols_documentation
    predict_documentation
    thanks
-   technical_design_rationale

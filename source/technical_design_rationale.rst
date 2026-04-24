@@ -90,14 +90,14 @@ Current Scope & Stability
 * Reporting Ready: Outputs are formatted for immediate inclusion in manuscripts and reports.
 * Stability: The core API for these common analyses is stable and production-ready.
 
-Planned Expansions The next phase of development focuses on extending ResearchPy into multivariate and multivariable
+**Planned Expansions** The next phase of development focuses on extending ResearchPy into multivariate and multivariable
 modeling, bridging the gap between exploratory analysis and complex inference:
 
 * Generalized Linear Models (GLM): A unified interface allowing users to specify families (Gaussian, Binomial, Poisson, etc.) and link functions, covering Logistic, Poisson, and Negative Binomial regression.
 * Advanced Regression: Enhanced support for Linear Regression with interaction terms and polynomial features, with automatic effect size calculations.
 * Model Diagnostics: Integrated tools for residual analysis, multicollinearity checks (VIF), and assumption testing, all returning structured DataFrames.
 
-User-Driven Development Unlike commercial software where features are dictated by market research, ResearchPy's evolution is community-led:
+**User-Driven Development** Unlike commercial software where features are dictated by market research, ResearchPy's evolution is community-led:
 
 * Feedback Loop: Feature requests and bug reports from users directly influence the priority of the development queue.
 * Open Contribution: The open-source nature invites contributions from the community, ensuring the tool benefits from diverse expertise.
