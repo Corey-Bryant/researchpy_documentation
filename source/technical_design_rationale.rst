@@ -103,4 +103,29 @@ modeling, bridging the gap between exploratory analysis and complex inference:
 * Open Contribution: The open-source nature invites contributions from the community, ensuring the tool benefits from diverse expertise.
 * Transparency: The development roadmap is visible in the repository, allowing users to see what is being worked on and vote on priorities.
 
-Whether used as a standalone library or as part of a larger ecosystem, the code remains open, accessible, and free for the community to use and extend.
+Commitment to Independence Regardless of how the "Hearts of Science" initiative evolves, ResearchPy remains a standalone,
+independent tool. Its functionality does not depend on any external organizational structure. Whether used as a standalone
+library or as part of a larger ecosystem, the code remains open, accessible, and free for the community to use and extend.
+
+
+-----------------------------------------------------------------
+Relationship to Hearts of Science: The Emerging Container
+-----------------------------------------------------------------
+ResearchPy was born from a specific need: to make statistical analysis in Python accessible, transparent, and
+reproducible. Over time, it became clear that this need was not isolated. It was part of a broader pattern of
+work; including educational resources like Python for Data Science and a commitment to open, ethical research
+practices that shared the same underlying values.
+
+Hearts of Science (HoS) is the name given to this emerging pattern.
+
+It is not a rebrand, a pivot, or a corporate entity created to sell a product. Rather, it is an organizing concept intended to:
+
+* Reduce Fragmentation: Provide a coherent home for related tools and educational resources that share a commitment to methodological rigor and accessibility.
+* Ensure Continuity: Serve as a narrative anchor that explains why these tools were built the way they were, connecting the dots between code, education, and ethics.
+* Support Evolution: Act as a flexible container that can grow to include future initiatives aligned with the mission of improving the human condition through better data.
+* Independence is Paramount Crucially, ResearchPy remains fully usable and independent. Its functionality, stability,
+and value do not depend on the existence or evolution of Hearts of Science. Whether HoS becomes a formal organization,
+remains a loose collection of projects, or simply serves as a philosophical label, ResearchPy will continue to be
+maintained as a standalone, open-source library for the community.
+
+The relationship is simple: ResearchPy is the work. Hearts of Science is the "why" behind the work.
