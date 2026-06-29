@@ -30,8 +30,7 @@ For background on authorship, scope, and design principles, see the
    about
    technical_design_rationale
    install
-   datasets/
-     stats_webuse_documentation
+   datasets/stata_webuse_documentation
    codebook_documentation
    summarize_documentation
    summary_cont_documentation
