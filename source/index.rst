@@ -24,12 +24,14 @@ For background on authorship, scope, and design principles, see the
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
    about
    technical_design_rationale
    install
+   datasets/
+     stats_webuse_documentation
    codebook_documentation
    summarize_documentation
    summary_cont_documentation
