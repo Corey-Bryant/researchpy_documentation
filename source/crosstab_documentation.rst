@@ -468,7 +468,7 @@ Chi Squared (:math:`\chi^2`) Test of Independence
      All        23  40  38  101,                 Chi-square test  results
      0  Pearson Chi-square ( 4.0) =    5.1573
      1                    p-value =    0.2715
-     2                 Cramer's V =    0.3196)
+     2                 Cramer's V =    0.1598)
 
 
 
@@ -569,7 +569,7 @@ Chi Squared (:math:`\chi^2`) Test of Independence
         <tr>
           <th>2</th>
           <td>Cramer's V =</td>
-          <td>0.3196</td>
+          <td>0.1598</td>
         </tr>
       </tbody>
     </table>
