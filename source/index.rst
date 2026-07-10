@@ -31,6 +31,7 @@ For background on authorship, scope, and design principles, see the
    technical_design_rationale
    install
    datasets/stata_webuse_documentation
+   statistics/central_tendency_documentation
    codebook_documentation
    summarize_documentation
    summary_cont_documentation
