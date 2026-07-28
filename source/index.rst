@@ -18,9 +18,6 @@ For background on authorship, scope, and design principles, see the
    * For standard install
       * pip install researchpy
 
-   * For installation through conda
-      * conda install researchpy::researchpy
-
 
 
 .. toctree::

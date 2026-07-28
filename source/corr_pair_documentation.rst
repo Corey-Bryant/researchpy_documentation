@@ -117,7 +117,7 @@ Pearson r
 .. code:: python
 
     # Demonstrating how the output looks if there are different Ns for groups
-    df['happiness_index'][0:30] = numpy.nan
+    df.loc[0:30, 'happiness_index'] = np.nan
 
     researchpy.correlation.corr_pair(df)
 
@@ -150,7 +150,7 @@ Pearson r
           <th>mental_score &amp; happiness_index</th>
           <td>0.0933</td>
           <td>0.4423</td>
-          <td>70</td>
+          <td>69</td>
         </tr>
         <tr>
           <th>physical_score &amp; emotional_score</th>
@@ -162,13 +162,13 @@ Pearson r
           <th>physical_score &amp; happiness_index</th>
           <td>-0.0268</td>
           <td>0.8254</td>
-          <td>70</td>
+          <td>69</td>
         </tr>
         <tr>
           <th>emotional_score &amp; happiness_index</th>
           <td>-0.0873</td>
           <td>0.4726</td>
-          <td>70</td>
+          <td>69</td>
         </tr>
       </tbody>
     </table>

@@ -50,17 +50,15 @@ Examples
 Loading Packages and Data
 -------------------------
 First to load required libraries for this example. Below, an example data set will be loaded
-in using statsmodels.datasets; the data loaded in is a data set available through Stata
+in using researchpy.datasets; the data loaded in is a data set available through Stata
 called 'auto'.
 
 .. code:: python
 
  import researchpy as rp
  import pandas as pd
- # Used to load example data #
- import statsmodels.datasets
 
- auto = statsmodels.datasets.webuse('auto')
+ auto = rp.datasets.auto()
  auto.info()
 
 
