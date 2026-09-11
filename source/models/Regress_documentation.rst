@@ -1,5 +1,5 @@
 *****************
-researchpy.models.Regress()
+Regress()
 *****************
 
 Description
@@ -13,7 +13,7 @@ Parameters
 
 Input
 -----
-**researchpy.models.Regress(formula, data = None, conf_level = 0.95, table_decimals = None, display_summary = True, return_type = "Dictionary", na_rep = '', pretty_format = True)**
+**Regress(formula, data = None, conf_level = 0.95, table_decimals = None, display_summary = True, return_type = "Dictionary", na_rep = '', pretty_format = True)**
 
   * **formula** : A valid formula which will parse the data into a design matrix.
   * **data** : The dataframe which contains the data to be analyzed.
