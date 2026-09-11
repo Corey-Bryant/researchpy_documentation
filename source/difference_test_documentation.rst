@@ -306,11 +306,11 @@ Independent Samples t-test
 .. parsed-literal::
 
     (      Variable      N   Mean        SD        SE  95% Conf.  Interval
-     0      healthy  100.0  4.590  2.749086  0.274909   4.044522  5.135478
-     1  non-healthy  100.0  4.160  3.132495  0.313250   3.538445  4.781555
+     0           No  100.0  4.590  2.749086  0.274909   4.044522  5.135478
+     1          Yes  100.0  4.160  3.132495  0.313250   3.538445  4.781555
      2     combined  200.0  4.375  2.947510  0.208420   3.964004  4.785996,
                                       Independent t-test   results
-     0             Difference (healthy - non-healthy) =     0.4300
+     0                          Difference (No - Yes) =     0.4300
      1                             Degrees of freedom =   198.0000
      2                                              t =     1.0317
      3                          Two side test p value =     0.3035

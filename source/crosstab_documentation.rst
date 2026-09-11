@@ -663,7 +663,7 @@ G-test
         <tr>
           <th>2</th>
           <td>Cramer's V =</td>
-          <td>0.3264</td>
+          <td>0.1632</td>
         </tr>
       </tbody>
     </table>

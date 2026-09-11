@@ -1,6 +1,6 @@
-*************
-ols()
-*************
+*****************
+researchpy.models.Regress()
+*****************
 
 Description
 ===========
@@ -13,28 +13,40 @@ Parameters
 
 Input
 -----
-**ols(formula_like, data = {})**
+**researchpy.models.Regress(formula, data = None, conf_level = 0.95, table_decimals = None, display_summary = True, return_type = "Dictionary", na_rep = '', pretty_format = True)**
 
-  * **formula_like** : A valid formula which will parse the data into a design matrix.
+  * **formula** : A valid formula which will parse the data into a design matrix.
   * **data** : The dataframe which contains the data to be analyzed.
+  * **conf_level** : The confidence level desired for the confidence intervals. The default is 0.95.
+  * **table_decimals** : A dictionary specifying the number of decimal places to use for different statistics. If ``None``, sensible defaults are used.
+  * **display_summary** : If ``True`` (default), a formatted summary of the model is printed when the model is fit.
+  * **return_type** : The type of data structure the results should be returned as when the model is built. Supported options are 'Dataframe' which will return a Pandas DataFrame or 'Dictionary' which will return a dictionary.
+  * **na_rep** : The representation to use for missing values in the returned results. The default is an empty string.
+  * **pretty_format** : If pretty formatting should be applied. This adds extra empty spaces in the returned data structure for visualization of the results.
+
+The ``Regress`` class is also available under the aliases ``LinearRegression`` and ``LM``.
 
 
 Returns
 -------
-Returns an object with class "ols"; this object has accessible methods which are
+Returns an object with class "Regress"; this object has accessible methods which are
 described below.
 
 ols methods
 ^^^^^^^^^^^^^
 
-  * **results(return_type = "Dataframe", decimals = 4, pretty_format = True, conf_level = 0.95)**
+  * **results(include_test_stat_p = False, include_effect_sizes = True, return_type = "Dataframe", na_rep = '', pretty_format = True, table_decimals = None)**
 
+      * **include_test_stat_p** : Whether to include p-values for the test statistics in the results. The default is ``False``.
+      * **include_effect_sizes** : Whether to include effect sizes in the results. The default is ``True``.
       * **return_type** : The type of data structure the results should be returned as. Supported options are 'Dataframe' which will return a Pandas DataFrame or 'Dictionary' which will return a dictionary.
-      * **decimals** : The number of decimal places the data should be rounded too.
+      * **na_rep** : The representation to use for missing values in the results. The default is an empty string.
       * **pretty_format** : If pretty formatting should be applied. This adds extra empty spaces in the returned data structure for visualization of the results.
-      * **conf_level** : The confidence interval desired.
+      * **table_decimals** : A dictionary specifying the number of decimal places to use for different statistics.
 
-  -results- will return 3 objects, (1) is summary information, (2) is model table, and (3) is the regression table.
+  -results- returns a ``ModelResults`` dataclass with the fields ``model_name``, ``fit_statistics``, ``model_table``, ``coefficients``, and ``details``. The dataclass supports both attribute access (e.g., ``result.coefficients``) and tuple unpacking::
+
+      name, fit_stats, model_table, coefs, details = m.results()
 
   * **predict(estimate = None)**
 
@@ -156,9 +168,11 @@ Now to fit the linear regression model, below is sample syntax.
 
 .. code:: python
 
-  m = ols("systolic ~ C(drug) + C(disease) + C(drug):C(disease)", data = systolic)
+  from researchpy.models import Regress
 
-   desc, mod, table = m.results()
+  m = Regress("systolic ~ C(drug) + C(disease) + C(drug):C(disease)", data = systolic)
+
+   name, desc, mod, table, details = m.results()
    print(desc, mod, table, sep = "\n"*2)
 
 .. raw:: html

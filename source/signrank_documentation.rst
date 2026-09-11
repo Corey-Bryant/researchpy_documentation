@@ -85,17 +85,15 @@ Examples
 Loading Packages and Data
 -------------------------
 First to load required libraries for this example. Below, an example data set will be loaded
-in using statsmodels.datasets; the data loaded in is a data set available through Stata
+in using researchpy.datasets; the data loaded in is a data set available through Stata
 called 'fuel'.
 
 .. code:: python
 
  import researchpy as rp
  import pandas as pd
- # Used to load example data #
- import statsmodels.datasets
 
- fuel = statsmodels.datasets.webuse('fuel')
+ fuel = rp.datasets.fuel()
  fuel["id"] = range(1, fuel.shape[0] + 1)
  fuel.info()
 

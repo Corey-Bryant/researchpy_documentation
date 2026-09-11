@@ -113,18 +113,15 @@ H (hat) matrix. The H matrix is calculated using:
 Examples
 ========
 First to load required libraries for this example. Below, an example data set will be loaded
-in using statsmodels.datasets; the data loaded in is a data set available through Stata
+in using researchpy.datasets; the data loaded in is a data set available through Stata
 called 'systolic'.
 
 .. code:: python
 
    import researchpy as rp
    import pandas as pd
-   # Used to load example data #
-   import statsmodels.datasets
 
-
-   systolic = statsmodels.datasets.webuse('systolic')
+   systolic = rp.datasets.systolic()
 
 
 Now let's get some quick information regarding the data set.
